@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+
+    <debug-overrides>
+        <trust-anchors>
+            <!-- Trust user added CAs while debuggable only -->
+            <certificates src="user" />
+        </trust-anchors>
+    </debug-overrides>
+
+    <!--<domain-config>
+        <domain includeSubdomains="true">api.github.com</domain>
+        <trust-anchors>
+            <certificates src="@raw/git_certificate" />
+        </trust-anchors>
+    </domain-config>-->
+
+    <!--<domain-config>
+        <domain includeSubdomains="true">jsonplaceholder.typicode.com</domain>
+        <trust-anchors>
+            <certificates src="@raw/json_certificate" />
+        </trust-anchors>
+    </domain-config>-->
+
+  <!--  <domain-config>
+        <domain includeSubdomains="true">api.github.com</domain>
+        <pin-set>
+
+            <pin digest="SHA-256">1UPHAdcUbUoOcd5rDTD/0oMSnngCU6YzXzpByO4CCp4=</pin>
+
+            <pin digest="SHA-256">RQeZkB42znUfsDIIFWIRiYEcKl7nHwNFwWCrnMMJbVc=</pin>
+            &lt;!&ndash;Mine&ndash;&gt;
+            <pin digest="SHA-256">Jg78dOE+fydIGk19swWwiypUSR6HWZybfnJG/8G7pyM=</pin>
+
+            <pin digest="SHA-256">e0IRz5Tio3GA1Xs4fUVWmH1xHDiH2dMbVtCBSkOIdqM=</pin>
+
+        </pin-set>
+    </domain-config>-->
+
+</network-security-config>
