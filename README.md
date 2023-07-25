@@ -35,10 +35,10 @@ A man-in-the-middle (MITM) attack is a type of cyber attack where an attacker in
 
         3. End User Certificate
 
-| [Certificate Chain](https://youtu.be/msBrdFiSvW4)                                                                       |                                                                                                                         |
-|-------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| <img src="https://github.com/chichi289/SSL-Pinning/blob/master/screenshots/1.png" width="400" hspace="10" vspace="10"/> | <img src="https://github.com/chichi289/SSL-Pinning/blob/master/screenshots/2.png" width="400" hspace="10" vspace="10"/> |
-| <img src="https://github.com/chichi289/SSL-Pinning/blob/master/screenshots/3.png" width="400" hspace="10" vspace="10"/> | <img src="https://github.com/chichi289/SSL-Pinning/blob/master/screenshots/4.png" width="400" hspace="10" vspace="10"/> |
+| [Certificate Chain](https://youtu.be/msBrdFiSvW4)                   |                                                                     |
+|---------------------------------------------------------------------|---------------------------------------------------------------------|
+| <img src="/screenshots/1.png" width="400" hspace="10" vspace="10"/> | <img src="/screenshots/2.png" width="400" hspace="10" vspace="10"/> |
+| <img src="/screenshots/3.png" width="400" hspace="10" vspace="10"/> | <img src="/screenshots/4.png" width="400" hspace="10" vspace="10"/> |
 
 ### API Endpoints Used for SSL Pinning:
 
